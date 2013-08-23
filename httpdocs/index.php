@@ -29,8 +29,8 @@
             </div>
             <p class="slogan">Ремонтриуем и чиним все</p>
             <div class="cat_descriptions">
-                <p id="cat1_descr">Cat 1</p>
-                <p id="cat2_descr">Cat 2</p>
+                <p id="cat1_descr">Автомобили</p>
+                <p id="cat2_descr">Аудио / Видео</p>
                 <p id="cat3_descr">Cat 3</p>
                 <p id="cat4_descr">Cat 4</p>
                 <p id="cat5_descr">Cat 5</p>

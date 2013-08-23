@@ -21,6 +21,10 @@ div.cat_menu_line_container {
     border-radius: 5px;
     margin: 2px;
     cursor: pointer;
+    position: fixed;
+    left: 510px;
+    top: -60px;
+    z-index: 1;
     -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
     -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
     box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
@@ -52,11 +56,19 @@ p.slogan {
 
 div#cat1 {
     background: #fff url(../images/menu/car45.png) center no-repeat;
-    margin-left: 71px;
+    /*margin-left: 71px;*/
+}
+
+div#cat2 {
+    background: #fff url(../images/menu/media45.png) center no-repeat;
 }
 
 div#cat1:hover {
     background: #fff url(../images/menu/car64.png) center no-repeat;
+}
+
+div#cat2:hover {
+    background: #fff url(../images/menu/media64.png) center no-repeat;
 }
 
 div.cat_descriptions {
