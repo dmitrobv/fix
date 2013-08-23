@@ -18,7 +18,7 @@ div.cat_menu_line_container {
     width: 45px;
     height: 45px;
     border: 1px solid #fff;
-    border-radius: 5px;
+    border-radius: 50px;
     margin: 2px;
     cursor: pointer;
     position: fixed;
@@ -63,12 +63,84 @@ div#cat2 {
     background: #fff url(../images/menu/media45.png) center no-repeat;
 }
 
+div#cat3 {
+    background: #fff url(../images/menu/home45.png) center no-repeat;
+}
+
+div#cat4 {
+    background: #fff url(../images/menu/electr45.png) center no-repeat;
+}
+
+div#cat5 {
+    background: #fff url(../images/menu/useful45.png) center no-repeat;
+}
+
+div#cat6 {
+    background: #fff url(../images/menu/cell45.png) center no-repeat;
+}
+
+div#cat7 {
+    background: #fff url(../images/menu/tools45.png) center no-repeat;
+}
+
+div#cat8 {
+    background: #fff url(../images/menu/pc45.png) center no-repeat;
+}
+
+div#cat9 {
+    background: #fff url(../images/menu/shoes45.png) center no-repeat;
+}
+
+div#cat10 {
+    background: #fff url(../images/menu/dress45.png) center no-repeat;
+}
+
+div#cat11 {
+    background: #fff url(../images/menu/sport45.png) center no-repeat;
+}
+
 div#cat1:hover {
     background: #fff url(../images/menu/car64.png) center no-repeat;
 }
 
 div#cat2:hover {
     background: #fff url(../images/menu/media64.png) center no-repeat;
+}
+
+div#cat3:hover {
+    background: #fff url(../images/menu/home64.png) center no-repeat;
+}
+
+div#cat4:hover {
+    background: #fff url(../images/menu/electr64.png) center no-repeat;
+}
+
+div#cat5:hover {
+    background: #fff url(../images/menu/useful64.png) center no-repeat;
+}
+
+div#cat6:hover {
+    background: #fff url(../images/menu/cell64.png) center no-repeat;
+}
+
+div#cat7:hover {
+    background: #fff url(../images/menu/tools64.png) center no-repeat;
+}
+
+div#cat8:hover {
+    background: #fff url(../images/menu/pc64.png) center no-repeat;
+}
+
+div#cat9:hover {
+    background: #fff url(../images/menu/shoes64.png) center no-repeat;
+}
+
+div#cat10:hover {
+    background: #fff url(../images/menu/dress64.png) center no-repeat;
+}
+
+div#cat11:hover {
+    background: #fff url(../images/menu/sport64.png) center no-repeat;
 }
 
 div.cat_descriptions {
