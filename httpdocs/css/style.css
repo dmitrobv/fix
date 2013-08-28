@@ -99,6 +99,26 @@ div#cat11 {
     background: #fff url(../images/menu/sport45.png) center no-repeat;
 }
 
+div#cat12 {
+    background: #fff url(../images/menu/tap45.png) center no-repeat;
+}
+
+div#cat13 {
+    background: #fff url(../images/menu/lamp45.png) center no-repeat;
+}
+
+div#cat14 {
+    background: #fff url(../images/menu/access45.png) center no-repeat;
+}
+
+div#cat15 {
+    background: #fff url(../images/menu/furniture45.png) center no-repeat;
+}
+
+div#cat16 {
+    background: #fff url(../images/menu/tech45.png) center no-repeat;
+}
+
 div#cat1:hover {
     background: #fff url(../images/menu/car64.png) center no-repeat;
 }
@@ -141,6 +161,26 @@ div#cat10:hover {
 
 div#cat11:hover {
     background: #fff url(../images/menu/sport64.png) center no-repeat;
+}
+
+div#cat12:hover {
+    background: #fff url(../images/menu/tap64.png) center no-repeat;
+}
+
+div#cat13:hover {
+    background: #fff url(../images/menu/lamp64.png) center no-repeat;
+}
+
+div#cat14:hover {
+    background: #fff url(../images/menu/access64.png) center no-repeat;
+}
+
+div#cat15:hover {
+    background: #fff url(../images/menu/furniture64.png) center no-repeat;
+}
+
+div#cat16:hover {
+    background: #fff url(../images/menu/tech64.png) center no-repeat;
 }
 
 div.cat_descriptions {

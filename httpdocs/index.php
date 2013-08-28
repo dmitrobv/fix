@@ -10,22 +10,22 @@
     <body>
         <div class="header">
             <div class="cat_menu_line_container">
-                <div class="cat_menu_line_item" id="cat1"></div>
-                <div class="cat_menu_line_item" id="cat2"></div>
-                <div class="cat_menu_line_item" id="cat3"></div>
-                <div class="cat_menu_line_item" id="cat4"></div>
-                <div class="cat_menu_line_item" id="cat5"></div>
-                <div class="cat_menu_line_item" id="cat6"></div>
-                <div class="cat_menu_line_item" id="cat7"></div>
-                <div class="cat_menu_line_item" id="cat8"></div>
-                <div class="cat_menu_line_item" id="cat9"></div>
-                <div class="cat_menu_line_item" id="cat10"></div>
-                <div class="cat_menu_line_item" id="cat11"></div>
-                <div class="cat_menu_line_item" id="cat12"></div>
-                <div class="cat_menu_line_item" id="cat13"></div>
-                <div class="cat_menu_line_item" id="cat14"></div>
-                <div class="cat_menu_line_item" id="cat15"></div>
-                <div class="cat_menu_line_item" id="cat16"></div>
+                <a href="/category/avtomobili"><div class="cat_menu_line_item" id="cat1"></div></a>
+                <a href="category/audio-video"><div class="cat_menu_line_item" id="cat2"></div></a>
+                <a href="/category/kvartira-i-dom"><div class="cat_menu_line_item" id="cat3"></div></a>
+                <a href="/category/electrics"><div class="cat_menu_line_item" id="cat4"></div></a>
+                <a href="/category/poleznoe"><div class="cat_menu_line_item" id="cat5"></div></a>
+                <a href="/category/mobilnye-ustrojstva"><div class="cat_menu_line_item" id="cat6"></div></a>
+                <a href="/category/tools"><div class="cat_menu_line_item" id="cat7"></div></a>
+                <a href="/category/computer"><div class="cat_menu_line_item" id="cat8"></div></a>
+                <a href="/category/shoes"><div class="cat_menu_line_item" id="cat9"></div></a>
+                <a href="/category/dress"><div class="cat_menu_line_item" id="cat10"></div></a>
+                <a href="/category/sportivnyj-inventar"><div class="cat_menu_line_item" id="cat11"></div></a>
+                <a href="/category/taps"><div class="cat_menu_line_item" id="cat12"></div></a>
+                <a href="/category/electrictools"><div class="cat_menu_line_item" id="cat13"></div></a>
+                <a href="/category/aksessuary"><div class="cat_menu_line_item" id="cat14"></div></a>
+                <a href="/category/mebel"><div class="cat_menu_line_item" id="cat15"></div></a>
+                <a href="/category/techniks"><div class="cat_menu_line_item" id="cat16"></div></a>
             </div>
             <p class="slogan">Ремонтриуем и чиним все</p>
             <div class="cat_descriptions">
@@ -40,11 +40,11 @@
                 <p id="cat9_descr">Обувь</p>
                 <p id="cat10_descr">Одежда</p>
                 <p id="cat11_descr">Спортивный инвентарь</p>
-                <p id="cat12_descr">Cat 12</p>
-                <p id="cat13_descr">Cat 13</p>
-                <p id="cat14_descr">Cat 14</p>
-                <p id="cat15_descr">Cat 15</p>
-                <p id="cat16_descr">Cat 16</p>
+                <p id="cat12_descr">Сантехнеика</p>
+                <p id="cat13_descr">Электроприборы</p>
+                <p id="cat14_descr">Аксессуары</p>
+                <p id="cat15_descr">Мебель</p>
+                <p id="cat16_descr">Бытовая техника</p>
             </div>
             <div class="main_menu_container">
                 <div class="main_menu_item">Главная</div>
