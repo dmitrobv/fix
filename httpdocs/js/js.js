@@ -2,19 +2,21 @@
 
 $(document).ready(function(){
     var coords = {
-        top: 30,
-        left: 510
-    }
-        menuDropDown(coords, 0);
+        top: 10,
+        left: 50,
+    };
+    menuDropDown(coords, 0);
 })
 
-function menuDropDown(coords, pos) {
-    if(pos > 16) return false;
-    $("div.cat_menu_line_item#cat"+(pos+1)).css('left', coords.left = coords.left+50).animate({'top':coords.top },100);
-    setTimeout(function() { menuDropDown(coords, ++pos) }, 50);
-}
-/*******************************/
+function menuDropDown(coords, pos, menutype) {
+        var menuitem = "div.cat_menu_line_item#cat";
 
+        if(pos > 16) { return false; }
+        else $(menuitem+(pos+1)).css('left', coords.left = coords.left+50).animate({ 'top':coords.top },100);
+        setTimeout(function() { menuDropDown(coords, ++pos) }, 50);
+}
+
+/*******************************/
 
 /* Main Menu Siding accordeon functionality */
 $(document).ready(function(){
@@ -42,3 +44,31 @@ $(document).ready(function(){
     })
 })
 /********************************************/
+
+/* TOOLBOX BEHAIVOUR*/
+$(document).ready(function(){
+    var toolbox = $("div.toolbox"),
+    toolboxparts = {
+        top: 'div.toolbox_top',
+        bottom: 'div.toolbox_bottom',
+        complete: 'div.toolbox_complete',
+        inner: 'div.toolbox_inner',
+        minheight: '116',
+        maxheight: '471'
+    };
+
+
+    toolbox.hover(  function(){
+                        $(toolboxparts.complete).hide();
+                        $(toolboxparts.top).show();
+                        $(toolboxparts.bottom).show();
+                        $(toolboxparts.inner).show().stop(true,true).animate({'height': toolboxparts.maxheight }, 500);
+                        $(this).css({'height':toolboxparts.maxheight});
+                    },
+                    function(){
+                        $(toolboxparts.inner).stop(true,true).animate({'height':'0'},500,function(){ $(this).hide(); $(toolboxparts.top).hide(); $(toolboxparts.bottom).hide(); $(toolboxparts.complete).show(); });
+                        $(this).css({'height':toolboxparts.minheight});
+                    });
+})
+
+/********************/

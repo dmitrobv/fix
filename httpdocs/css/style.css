@@ -1,16 +1,18 @@
 div.header {
-    width: 960px;
-    height: 200px;
+    width: 995px;
+    height: 150px;
     border: 1px solid #233F9A;
     border-radius: 10px;
     margin: 0 auto;
+    position: relative;
 }
 
 div.cat_menu_line_container {
     width: 960px;
     height: 50px;
     margin: 20px 0;
-    position: fixed;
+    position: absolute;
+    z-index: 99;
 }
 
 .cat_menu_line_item {
@@ -21,9 +23,9 @@ div.cat_menu_line_container {
     border-radius: 50px;
     margin: 2px;
     cursor: pointer;
-    position: fixed;
-    left: 510px;
-    top: -60px;
+    position: absolute;
+    left: 100px;
+    top: -90px;
     z-index: 1;
     -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
     -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
@@ -45,18 +47,15 @@ div.main_menu_item {
     cursor: pointer;
 }
 
-p.slogan {
-    width: 450px;
-    height: 35px;
-    margin: 30px auto;
-    margin-top: 90px;
-    text-align: center;
-    font-size: 34px;
+p.slogan a {
+    text-decoration: none;
+    color: #004aa6;
+    font-weight: bold;
+    font-family: 'Marmelad', sans-serif;
 }
 
 div#cat1 {
     background: #fff url(../images/menu/car45.png) center no-repeat;
-    /*margin-left: 71px;*/
 }
 
 div#cat2 {
@@ -183,16 +182,70 @@ div#cat16:hover {
     background: #fff url(../images/menu/tech64.png) center no-repeat;
 }
 
-div.cat_descriptions {
+div.cat_descriptions, p.slogan {
     position: absolute;
-    top: 75px;
+    top: 55px;
     left: 0;
     width: 100%;
     text-align: center;
     font-size: 30px;
+    font-family: 'Marmelad', sans-serif;
+    color: #004aa6;
 }
 
 div.cat_descriptions p {
     display: none;
     opacity: 0;
+}
+
+p.slogan {
+    font-size: 34px;
+}
+
+div.content-area {
+    width: 900px;
+    height: 1500px;
+}
+
+div.left_side {
+    float: left;
+    width: 250px;
+    text-align: center;
+}
+
+div.toolbox {
+    width: 170px;
+    height: 116px;
+}
+
+div.toolbox:hover {
+    cursor: pointer;
+}
+
+div.toolbox_complete {
+    background: url(../images/sidebar/toolbox.jpg) top center no-repeat;
+    width: 170px;
+    height: 116px;
+}
+
+div.toolbox_top {
+    background: url(../images/sidebar/boxtop.png) top center no-repeat;
+    width: 170px;
+    height: 66px;
+    display: none;
+}
+
+div.toolbox_bottom {
+    background: url(../images/sidebar/boxbottom.png) top center no-repeat;
+    width: 170px;
+    height: 81px;
+    display: none;
+}
+
+div.toolbox_inner {
+    width: 131px;
+    height:50px;
+    margin: 0 auto;
+    background-color: #004aa6;
+    display: none;
 }

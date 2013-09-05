@@ -4,6 +4,7 @@
         <title>Fix-everything.ru - Блог советов по ремонту всего и вся!</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <link href='http://fonts.googleapis.com/css?family=Marmelad&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
         <script type="text/javascript" src="js/js.js"></script>
     </head>
@@ -27,7 +28,7 @@
                 <a href="/category/mebel"><div class="cat_menu_line_item" id="cat15"></div></a>
                 <a href="/category/techniks"><div class="cat_menu_line_item" id="cat16"></div></a>
             </div>
-            <p class="slogan">Ремонтриуем и чиним все</p>
+            <p class="slogan"><a href="/">Ремонтируем и чиним все</a></p>
             <div class="cat_descriptions">
                 <p id="cat1_descr">Автомобили</p>
                 <p id="cat2_descr">Аудио / Видео</p>
@@ -40,17 +41,27 @@
                 <p id="cat9_descr">Обувь</p>
                 <p id="cat10_descr">Одежда</p>
                 <p id="cat11_descr">Спортивный инвентарь</p>
-                <p id="cat12_descr">Сантехнеика</p>
+                <p id="cat12_descr">Сантехника</p>
                 <p id="cat13_descr">Электроприборы</p>
                 <p id="cat14_descr">Аксессуары</p>
                 <p id="cat15_descr">Мебель</p>
                 <p id="cat16_descr">Бытовая техника</p>
             </div>
-            <div class="main_menu_container">
-                <div class="main_menu_item">Главная</div>
-                <div class="main_menu_item">Полезные статьи</div>
-                <div class="main_menu_item">Ремонт квартиры</div>
-                <div class="main_menu_item">Карта блога</div>
+        </div>
+        <div class="content-area">
+            <div class="left_side">
+                <div class="toolbox">
+                    <div class="toolbox_complete"></div>
+                    <div class="toolbox_top"></div>
+                    <div class="toolbox_inner">
+                        <a href="/">link #1</a>
+                        <a href="/">link #2</a>
+                        <a href="/">link #3</a>
+                        <a href="/">link #4</a>
+                        <a href="/">link #5</a>
+                    </div>
+                    <div class="toolbox_bottom"></div>
+                </div>
             </div>
         </div>
     </body>
